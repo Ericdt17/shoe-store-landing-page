@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/shoe-store-landing-page/", // 👈 add this for GitHub Pages
+  base: "/shoe-store-landing-page/",
 });
