@@ -1,6 +1,6 @@
-import { copyrightSign } from "../assets/icons";
 import { footerLogo } from "../assets/images";
-import { footerLinks, socialMedia } from "../constants";
+import { socialMedia, footerLinks } from "../constants";
+import { copyrightSign } from "../assets/icons";
 
 const Footer = () => {
   return (
@@ -41,7 +41,7 @@ const Footer = () => {
               <ul>
                 {section.links.map((link) => (
                   <li
-                    className="mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray"
+                    className="mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray cursor-pointer"
                     key={link.name}
                   >
                     <a href={link.link}>{link.name}</a>

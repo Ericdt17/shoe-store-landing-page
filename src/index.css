@@ -501,7 +501,7 @@ nav a:hover {
 }
 
 .bg-hero {
-  background-image: url("../assets/images/collection-background.svg");
+  background-image: url("./assets/images/collection-background.svg");
 }
 
 .bg-cover {
